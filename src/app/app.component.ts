@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, HomeComponent, RouterModule],
-  templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   template: `
   <main>
@@ -14,6 +13,7 @@ import { RouterModule } from '@angular/router';
     <header class="brand-name">
       <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
     </header>
+</a>
     <section class="content">
     <router-outlet></router-outlet>
     </section>
